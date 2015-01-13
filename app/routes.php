@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function()
-{
-	return 'HI';
-});
+
+
+Route::controller('/','HomeController' );
+Route::controller('/friends/{user}', 'HomeController');
